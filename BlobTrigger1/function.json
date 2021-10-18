@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "test/{name}",
+      "connection": "zbastor1_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/BlobTrigger1/index.js"
+}
