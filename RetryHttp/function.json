@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/RetryHttp/index.js",
+  "retry": {
+    "maxRetryCount": 4,
+    "strategy": "fixedDelay",
+    "delayInterval": "00:00:05"
+  }
+}
