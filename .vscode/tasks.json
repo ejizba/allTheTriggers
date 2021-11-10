@@ -18,14 +18,20 @@
 		{
 			"type": "shell",
 			"label": "npm install (functions)",
-			"command": "npm install"
+			"command": "npm install",
+			"presentation": {
+				"reveal": "silent"
+			}
 		},
 		{
 			"type": "shell",
 			"label": "npm prune (functions)",
 			"command": "npm prune --production",
 			"dependsOn": "npm build (functions)",
-			"problemMatcher": []
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "silent"
+			}
 		},
 		{
             "label": "npm: watch",
