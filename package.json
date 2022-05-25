@@ -12,6 +12,7 @@
     "lint-fix": "eslint . --fix"
   },
   "dependencies": {
+    "applicationinsights": "^2.3.3",
     "durable-functions": "^1.5.2"
   },
   "devDependencies": {
