@@ -20,7 +20,7 @@
       "direction": "out",
       "name": "outputQueueItem",
       "queueName": "test",
-      "connection": "zbastor1_STORAGE"
+      "connection": "AzureWebJobsStorage"
     }
   ],
   "scriptFile": "../dist/HttpTriggerWithOutput/index.js"
